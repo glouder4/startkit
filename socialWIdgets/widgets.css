@@ -1,0 +1,49 @@
+.socialWidget {
+	background: #233588;
+	border: 1px solid #233588;
+	border-radius: 50%;
+	bottom: 90px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 21px;
+	font-weight: normal;
+	height: 35px;
+	line-height: 32px;
+	position: fixed;
+	right: 2%;
+	text-align: center;
+	transition: all 500ms ease 0s;
+	width: 35px;
+	-webkit-box-shadow: 0px 8px 23px -6px rgba(27,27,27,1);
+	-moz-box-shadow: 0px 8px 23px -6px rgba(27,27,27,1);
+	box-shadow: 0px 8px 23px -6px rgba(27,27,27,1);
+}
+#ShareWidget{
+	z-index:95;
+}
+#WidgetTelegram{
+background: #0088cc;
+	z-index:94;
+}
+#WidgetVK{
+	background: #4a76a8;
+	z-index:94;
+}
+#WidgetInstagram{
+	background:linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	z-index:93;
+}
+#WidgetWatsApp{
+	background:#25D366;
+	z-index:91;
+}
+@media (min-width:500px){
+	.socialWidget {
+		bottom:5px;
+	}
+	.scroll-to-top {
+		bottom: 90px;
+		right: auto!important;
+		left:15px;
+	}
+}
